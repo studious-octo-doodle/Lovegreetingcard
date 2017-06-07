@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My abooboo</title>
+         <link rel="shortcut icon" type="image/x-icon" href="https://media.giphy.com/media/5gpmmApIun18A/giphy.gif" />
+        <style type="text/css">
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .book-bg {
+                position: relative;
+                width: 500px;
+                height: 524px;
+                margin: 100px auto;
+                background: url('https://s-media-cache-ak0.pinimg.com/736x/9d/24/ee/9d24eecf3fd26661a1f9c3302f135ab2.jpg') no-repeat;
+                background-size: cover;
+                transform-style: preserve-3d;
+                perspective: 150px;
+            }
+            .book-cover {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: url('http://kimages.imikimi.com/image/2zxDa-5Q5vb.gif?height=400&password=ffVhn2nRUO&scale=max&width=400') no-repeat;
+                background-size: cover;
+                transform-origin: 0 50%;
+                transition: all 0.3s ease;
+            }
+            .book-bg:hover .book-cover {
+                transform: rotateY(-60deg);
+            }
+            h1{
+                font-family: 'Mogra', cursive;
+                color: lightskyblue;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Place mouse over the card</h1>
+        <div class="book-bg">
+            <div class="book-cover"></div>
+        </div>
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript"></script>
+
+    </body>
+</html>
